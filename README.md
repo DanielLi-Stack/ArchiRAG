@@ -21,14 +21,8 @@ Abstract: Automated domain-specific knowledge question answering in the architec
 
 ## ArchiRAG Representative Evidence-Grounded Cases
 
-![img](assets/06.png)
-*Figure 6) Representative ArchiRAG case for human-scale design parameter extraction.*<br><br>
-
-![img](assets/07.png)
-*Figure 7) Representative ArchiRAG case for code definition retrieval.*<br><br>
-
 ![img](assets/08.png)
-*Figure 8) Representative ArchiRAG case for code definition retrieval.*<br><br>
+*Figure 8) Representative ArchiRAG case for human-scale design parameter extraction.*<br><br>
 
 ![img](assets/09.png)
 *Figure 9) Representative ArchiRAG case for code definition retrieval.*<br><br>
@@ -50,6 +44,12 @@ Abstract: Automated domain-specific knowledge question answering in the architec
 
 ![img](assets/15.png)
 *Figure 15) Representative ArchiRAG case for code definition retrieval.*<br><br>
+
+![img](assets/16.png)
+*Figure 16) Representative ArchiRAG case for code definition retrieval.*<br><br>
+
+![img](assets/17.png)
+*Figure 17) Representative ArchiRAG case for code definition retrieval.*<br><br>
 
 ## TODO List
 
