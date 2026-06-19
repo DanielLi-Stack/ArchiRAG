@@ -1,1 +1,5 @@
-# ArchiRAG
+# ArchiRAG: Toward Evidence-Grounded Architectural Review with Multimodal Retrieval-Augmented Reasoning
+> 
+Abstract: Automated domain-specific knowledge question answering in the architecture, engineering, and construction (AEC) domain relies on heterogeneous multi-modal documents, including codes, technical specifications, drawings, and performance reports. However, existing architectural AI methods still face significant challenges, as they struggle with text-graphic misalignment, multi-step compliance reasoning, and evidence scattered across multiple documents. To bridge this gap, we construct ArchInstruct-QA, a dataset comprising architecture-oriented question-answer pairs. Building on this dataset, we propose ArchiRAG, a multi-modal retrieval-augmented framework that integrates multi-modal evidence units, adaptive hybrid retrieval, multi-hop evidence planning, and role-specific agents for grounded answer generation. ArchiRAG outperforms graph-based retrieval methods and lightweight RAG baselines in evidence alignment, retrieval precision, and long-context reasoning consistency, demonstrating its potential for automated architectural review workflows.
+
+[**Paper**]() | [**Project Page**]() | [**Model Weights**]() | [**Huggingface Demo**]() |
