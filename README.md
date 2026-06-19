@@ -17,7 +17,13 @@ Abstract: Automated domain-specific knowledge question answering in the architec
 *Figure 4) Document Base and Knowledge Coverage of ArchInstruct-QA.*<br><br>
 
 ![img](assets/05.png)
-*Figure 5) The ArchiRAG Framework.*<br><br>
+*Figure 5) Distribution of ArchInstruct-QA by Evidence Modality and Reasoning Type.*<br><br>
+
+![img](assets/06.png)
+*Figure 6) The ArchiRAG Framework.*<br><br>
+
+![img](assets/07.png)
+*Figure 7) Role-Specific Multi-Agent Reasoning Workflow in ArchiRAG.*<br><br>
 
 ## ArchiRAG Representative Evidence-Grounded Cases
 
