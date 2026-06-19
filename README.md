@@ -28,7 +28,7 @@ Abstract: Automated domain-specific knowledge question answering in the architec
 ## Table 2. Performance comparison of text-based RAG methods on architectural QA tasks
 
 | Method | Avg. Score (0-10) | F1 (%) | Avg. Time (s) |
-|---|---:|---:|---:|
+|---|:---:|:---:|:---:|
 | PathRAG_BGE-M3 [10] | 7.4216 | 65.14 | 35.8072 |
 | PathRAG_JINA-EMBEDDINGS-V3 [10] | 7.7029 | 68.27 | 30.6849 |
 | LightRAG_BGE-M3 [11] | 7.9824 | 71.13 | 57.3185 |
@@ -39,6 +39,17 @@ Abstract: Automated domain-specific knowledge question answering in the architec
 | SimilarityRAG_JINA-EMBEDDINGS-V3 [9] | 7.2963 | 63.89 | 17.8426 |
 | **ArchiRAG-Text_BGE-M3** | **8.3517** | **74.16** | 24.6325 |
 | ArchiRAG-Text_JINA-EMBEDDINGS-V3 | 7.8886 | 70.69 | 27.3481 |
+
+## Table 3. Performance comparison of multi-modal RAG methods on architectural QA tasks
+
+| Method | F1 (%) | Judge Avg. Score (1-10) | Judge Passing Rate (%) |
+|---|:---:|:---:|:---:|
+| RAGRAG [13] | 43.89 | 8.541 | 81.47 |
+| Visual RAG Toolkit [14] | 42.67 | 8.423 | 80.28 |
+| ViDoRAG [15] | 40.76 | 8.214 | 77.39 |
+| VRAG [16] | 35.69 | 6.948 | 60.31 |
+| RAG-Anything [17] | 39.75 | 8.302 | 72.43 |
+| **ArchiRAG** | **47.18** | **8.812** | **85.26** |
 
 
 ## ArchiRAG Representative Evidence-Grounded Cases
