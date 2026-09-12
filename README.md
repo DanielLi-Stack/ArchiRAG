@@ -25,42 +25,6 @@ Abstract: Automated domain-specific knowledge question answering in the architec
 ![img](assets/07.png)
 *Figure 7) Role-Specific Multi-Agent Reasoning Workflow in ArchiRAG.*<br><br>
 
-## Table 2. Performance comparison of text-based RAG methods on architectural QA tasks
-
-| Method | Avg. Score (0-10) | F1 (%) | Avg. Time (s) |
-|---|:---:|:---:|:---:|
-| PathRAG_BGE-M3 | 7.4216 | 65.14 | 35.8072 |
-| PathRAG_JINA-EMBEDDINGS-V3  | 7.7029 | 68.27 | 30.6849 |
-| LightRAG_BGE-M3  | 7.9824 | 71.13 | 57.3185 |
-| LightRAG_JINA-EMBEDDINGS-V3  | 8.0647 | 72.48 | 52.1064 |
-| GraphRAG_BGE-M3  | 5.6918 | 49.26 | 262.4387 |
-| GraphRAG_JINA-EMBEDDINGS-V3  | 5.2849 | 45.68 | 521.7469 |
-| SimilarityRAG_BGE-M3  | 7.1046 | 62.17 | 14.9238 |
-| SimilarityRAG_JINA-EMBEDDINGS-V3  | 7.2963 | 63.89 | 17.8426 |
-| **ArchiRAG-Text_BGE-M3** | **8.3517** | **74.16** | 24.6325 |
-| ArchiRAG-Text_JINA-EMBEDDINGS-V3 | 7.8886 | 70.69 | 27.3481 |
-
-## Table 3. Performance comparison of multi-modal RAG methods on architectural QA tasks
-
-| Method | F1 (%) | Judge Avg. Score (1-10) | Judge Passing Rate (%) |
-|---|:---:|:---:|:---:|
-| RAGRAG  | 43.89 | 8.541 | 81.47 |
-| Visual RAG Toolkit [14] | 42.67 | 8.423 | 80.28 |
-| ViDoRAG  | 40.76 | 8.214 | 77.39 |
-| VRAG  | 35.69 | 6.948 | 60.31 |
-| RAG-Anything [17] | 39.75 | 8.302 | 72.43 |
-| **ArchiRAG** | **47.18** | **8.812** | **85.26** |
-
-## Table 4. Ablation study of ArchiRAG components
-
-| Variant | Visual | GMM | Multi-hop | Agents | F1 (%) | Judge Avg. | Passing (%) |
-|---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| **Full ArchiRAG** | **Yes** | **Yes** | **Yes** | **Yes** | **47.18** | **8.81** | **85.26** |
-| w/o visual retrieval | No | Yes | Yes | Yes | 38.10 | 8.21 | 77.93 |
-| w/o GMM adaptive recall | Yes | No | Yes | Yes | 42.35 | 8.19 | 81.20 |
-| w/o multi-hop planning | Yes | Yes | No | Yes | 44.05 | 8.32 | 81.77 |
-| w/o agent role split | Yes | Yes | Yes | No | 36.70 | 7.75 | 75.94 |
-
 ## ArchiRAG Representative Evidence-Grounded Cases
 
 ![img](assets/08.png)
