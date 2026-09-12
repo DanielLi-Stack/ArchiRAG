@@ -19,7 +19,7 @@ Abstract: Automated domain-specific knowledge question answering in the architec
 ![img](assets/05.png)
 *Figure 5) Distribution of ArchInstruct-QA by Evidence Modality and Reasoning Type.*<br><br>
 
-![img](assets/061.png)
+![img](assets/06.png)
 *Figure 6) The ArchiRAG Framework.*<br><br>
 
 ![img](assets/07.png)
